@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 int main(){
     int a, b, c;
@@ -12,11 +12,11 @@ int main(){
 
     if(a == b && a == c){
         printf("Number are equal\n");
-    }else if(a > b && a > c){
+    }else if(a >= b && a >= c){
         printf("%d is greatest\n", a);
-    }else if(b > a && b > c){
+    }else if(b >= a && b >= c){
         printf("%d is greatest\n", b);
-    }else if(c > a && c > b){
+    }else if(c >= a && c >= b){
         printf("%d is greatest\n", c);
     }
 
